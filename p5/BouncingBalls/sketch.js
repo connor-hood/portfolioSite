@@ -1,5 +1,5 @@
 // TODO: Set up how many balls we want
-let ballCount = 500;
+let ballCount = 100;
 // TODO: Set up x and y position variable to equal an empty array
 let x = [];
 let y = [];
@@ -24,7 +24,7 @@ function setup() {
     xSpeed[i] = random(-5, 5);
     ySpeed[i] = random(-5, 5);
     // TODO: Set the size to be random
-    size[i] = random(10, 50);
+    size[i] = random(10, 60);
     // TODO: Set the colors to be random
     r[i] = random(0, 256);
     g[i] = random(0, 256);
