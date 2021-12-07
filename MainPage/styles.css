@@ -1,8 +1,10 @@
 *{
     text-align: center;
+    background-color: red;
 }
 
 .main{
     display: grid;
-    
+    border: 2px;
+    border-radius: 20%;
 }
