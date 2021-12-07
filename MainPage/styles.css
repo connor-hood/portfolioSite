@@ -5,6 +5,7 @@
 
 .main{
     display: grid;
+    grid-template-columns: auto auto auto auto auto;
     border: 2px;
     border-radius: 20%;
 }
