@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   background-color: #343231;
   color: whitesmoke;
+  font-family: monospace;
 }
 
 p, ul, li {
