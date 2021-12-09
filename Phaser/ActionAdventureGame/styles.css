@@ -1,0 +1,9 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+a:visited, a:link {
+    color: black;
+    text-decoration: none;
+  }
