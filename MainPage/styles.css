@@ -4,6 +4,15 @@
     font-family: monospace;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .main{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
