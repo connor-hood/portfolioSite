@@ -72,7 +72,7 @@ let gameState = {
   const config = {
     type: Phaser.WEBGL,
     parent: 'phaser-game',
-    backgroundColor: 0xffc836,
+    backgroundColor: 0x000000,
     width: 440,
     height: 550,
     scene: {
