@@ -1,0 +1,20 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+p {
+    text-align: center;
+}
+
+a:visited, a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  #phaser-game{
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    left: 50px;
+  }
