@@ -81,7 +81,7 @@ function preload() {
       gameState.enemyVelocity = 1
       gameState.pelletsLoop.destroy();
       this.physics.pause();
-      this.add.text(100, 150, 'Game Over \n Click to restart', { fontSize: '15px',
+      this.add.text(150, 250, 'Game Over \n Click to restart', { fontSize: '15px',
       fill: '#000' });
     })
   
@@ -96,7 +96,7 @@ function preload() {
       gameState.active = false
       gameState.enemyVelocity = 1
       this.physics.pause()
-      this.add.text(100, 150, 'Game Over \n Click to restart', { fontSize: '15px',
+      this.add.text(150, 250, 'Game Over \n Click to restart', { fontSize: '15px',
       fill: '#000' })
     })
   }
@@ -120,9 +120,8 @@ function preload() {
           // Add logic for winning condition and enemy movements below:
       if (numOfTotalEnemies() === 0) {
         gameState.active = false;
-        gameState.enemyVelocity = 1;
         this.physics.pause();
-        this.add.text(100, 150, 'You won!', { fontSize: '15px',
+        this.add.text(175, 250, 'You won! \nRefresh the page \nto play again', { fontSize: '15px',
       fill: '#000' });
       } else {
           gameState.enemies.getChildren().forEach(bug => {
@@ -142,6 +141,7 @@ function preload() {
   
   const config = {
       type: Phaser.AUTO,
+      parent: 'phaser-game',
       width: 450,
       height: 500,
       backgroundColor: "b9eaff",
