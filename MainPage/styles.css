@@ -15,7 +15,7 @@ a:hover {
 
 .p5, .phaser, .aframe{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     border: 2px;
     border-radius: 20%;
 }
