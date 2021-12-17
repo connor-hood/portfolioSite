@@ -4,13 +4,9 @@
     font-family: monospace;
 }
 
-a, a:visited {
+a:visited {
     text-decoration: none;
     color: black;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .p5, .phaser, .aframe{
