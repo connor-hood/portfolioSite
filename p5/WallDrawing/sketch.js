@@ -71,9 +71,4 @@ for(let posX = 0; posX < 10; posX++){
   line(0, 0, 0, height)
   //Set stroke color
   stroke(0,0,0)
-  
-
-
-
-
 }
